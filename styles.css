@@ -4,11 +4,11 @@ body {
 }
 
 .hero {
-    background-color: #1f2937;
-    color: #f9faf8;
     display: flex;
     align-items: center;
     justify-content: center;
+    background-color: #1f2937;
+    color: #f9faf8;
 }
 
 nav {
@@ -73,7 +73,8 @@ ul {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    
+    margin-top: 32px;
+    margin-bottom: 72px;
 }
 
 .cards {
@@ -86,15 +87,14 @@ ul {
 
 .info-text {
     width: 150px;
-    height: 150px;
+    color: #1f2937;
 }
 
 .info-title {
     font-size: 36px;
     font-weight: bolder;
     color: #1f2937;
-    margin: 32px;
-
+    margin-bottom: 32px;
 }
 
 .img-container {
@@ -103,6 +103,75 @@ ul {
     width: 150px;
     height: 150px;
     margin-bottom: 5px;
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #e5e7eb;
+    padding: 54px;
+}
+
+.quote-text {
+    display: flex;
+    justify-content: flex-start;
+    font-size: 36px;
+    font-weight: 100;
+}
+
+.quote-author {
+    display: flex;
+    justify-content: flex-end;
+    font-size: 24px;
+    padding: 16px;
+    font-weight: bold;
+}
+
+.call-to-action {
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    padding: 32px; 
+    color: white;     
+}
+
+.cta-window {
+    display: flex;
+    align-items: center;
+    padding: 64px;
+    background-color: #3882f6;
+    border-radius: 16px;
+}
+
+.cta-button {
+    width: 125px;
+    padding: 7px;
+    border-radius: 7px;
+    background-color: #3882f6;
+    border-color: white;
+    border-style: solid;
+    color: #f9faf8;
+}
+
+.bolder{
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.call-to-action-text {
+    font-size: 18px;
+    padding: 32px;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1f2937;
+    padding: 40px;
+    color: #e5e7eb;
 }
 
 .width-manager {
