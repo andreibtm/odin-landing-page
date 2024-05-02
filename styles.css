@@ -3,15 +3,30 @@ body {
     font-family: Roboto, sans-serif;
 }
 
+.hero {
+    background-color: #1f2937;
+    color: #f9faf8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 16px;
+    margin-bottom: 50px;
+}
+
+.logo {
+    font-weight: bold;
+    font-size: 24px;
+    color: #f9faf8;
 }
 
 a {
-    color: black;
+    color: #f9faf8;
     text-decoration: none;
 }
 
@@ -28,7 +43,27 @@ ul {
     padding: 16px;
 }
 
-.sign-up-text{
+.hero-main-text {
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+.hero-secondary-text {
+    font-size: 18px;
+    color: #e5e7eb;
+    margin-bottom: 10px;
+}
+
+.sign-up {
+    width: 125px;
+    padding: 7px;
+    border-radius: 7px;
+    background-color: #3882f6;
+    border: none;
+    color: #f9faf8;
+}
+
+.sign-up-content{
     display: flex;
     flex-direction: column;
 }
@@ -68,4 +103,8 @@ ul {
     width: 150px;
     height: 150px;
     margin-bottom: 5px;
+}
+
+.width-manager {
+    max-width: 1000px;
 }
